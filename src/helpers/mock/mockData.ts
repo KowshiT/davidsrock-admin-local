@@ -1,0 +1,67 @@
+export const organizationMockData = {
+    "name": "Human Rights Watch - New York",
+    "location": "Boston, USA",
+    "coverImage": "https://i.ibb.co/myyWYxf/HRWC.jpg",
+    "logoImage": "https://i.ibb.co/Jdtpfry/Hrw-logo-svg.png",
+    "cratedDate": "12 June 2018",
+    "website": "www.humanrightswatch.com",
+    "phone": "+85 11-5854-458",
+    "industry": "Human Rights",
+    "companySized": "10-20 employees",
+    "founded": "2010",
+    "discription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+}
+
+export const postMockData = [
+    {
+        "profilepicture": "https://i.ibb.co/mcvsF1C/profile-Pic2.png",
+        "feelingIcon": "https://i.ibb.co/JvczLrX/feelingsad.png",
+        "feelingText": "disappointed",
+        "cratedDate": "12 June 2023",
+        "cratedTime": "10.53",
+        "name": "Martha F. Perez",
+        "title": "Fifty Years After Safety Act, US Workers Still at Risk",
+        "discription": "Fifty years ago today, then-United States President Richard Nixon signed the Occupational Safety and Health (OSH) Act, a bill that set the stage for many of the basic protections to which US workers are legally entitled today.",
+        "likeCount": 0,
+        "commentCount": 0,
+
+    },
+    {
+        "profilepicture": "https://i.ibb.co/hd55Kqr/profile-Pic3.png",
+        "feelingIcon": "https://i.ibb.co/0XgJKZH/feelinghappy.png",
+        "feelingText": "happy",
+        "cratedDate": "12 December 2023",
+        "cratedTime": "12.53",
+        "name": "Louis A. Blanks",
+        "title": "Corruption Means More than Bribes and Payoffs",
+        "discription": "The recent passing of James Wolfensohn, president of the World Bank from 1995 to 2005, offers a moment to reflect on global progress in the fight against corruption. That his 1996 speech decrying the “cancer of corruption” broke a taboo offers a benchmark for how far we’ve come as we mark this year’s International Anti-Corruption Day.Today, governments and international financial institutions broadly recognize corruption’s heavy price.",
+        "likeCount": 50,
+        "commentCount": 3,
+
+    }, {
+        "profilepicture": "https://i.ibb.co/mcvsF1C/profile-Pic2.png",
+        "feelingIcon": "https://i.ibb.co/JvczLrX/feelingsad.png",
+        "postImage": "https://i.ibb.co/tMh1XGy/max-bender-p-MWK9-Fx-Vri-E-unsplashnew.jpg",
+        "feelingText": "disappointed",
+        "cratedDate": "12 June 2023",
+        "cratedTime": "10.53",
+        "name": "Martha F. Perez",
+        "title": "Fifty Years After Safety Act, US Workers Still at Risk",
+        "discription": "Fifty years ago today, then-United States President Richard Nixon signed the Occupational Safety and Health (OSH) Act, a bill that set the stage for many of the basic protections to which US workers are legally entitled today.",
+        "likeCount": 0,
+        "commentCount": 0,
+    },
+    {
+        "profilepicture": "https://i.ibb.co/mcvsF1C/profile-Pic2.png",
+        "feelingIcon": "https://i.ibb.co/JvczLrX/feelingsad.png",
+        "feelingText": "disappointed",
+        "cratedDate": "12 June 2023",
+        "cratedTime": "10.53",
+        "name": "Martha F. Perez",
+        "title": "Fifty Years After Safety Act, US Workers Still at Risk",
+        "discription": "Fifty years ago today, then-United States President Richard Nixon signed the Occupational Safety and Health (OSH) Act, a bill that set the stage for many of the basic protections to which US workers are legally entitled today.",
+        "likeCount": 0,
+        "commentCount": 0,
+
+    },
+]

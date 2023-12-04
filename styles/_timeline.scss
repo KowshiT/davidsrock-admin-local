@@ -1,0 +1,432 @@
+.timelineWrapperScroll {
+  overflow: auto;
+  max-height: 90vh;
+  flex-grow: 1;
+}
+
+.timelineWrapperScroll-right-card {
+  right: 0;
+  flex: 0 0 auto;
+  overflow: auto;
+  max-height: 90vh;
+  width: 350px;
+}
+
+.timelineWrapper .timelineRightWrapper {
+  flex: 0 0 auto;
+  overflow: auto;
+  max-height: 100vh; /* Set a maximum height to fit the viewport height */
+}
+
+.timelineText01 {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #969696;
+}
+
+.timelineAddPostText {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #969696;
+}
+
+.timelineAddPostText2 {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+}
+
+.timelineAddPostText3 {
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #808080;
+}
+
+.timelineCreatePostProfileImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.timelinePostTextArea {
+  width: 90%;
+  margin: 10px;
+  height: 100px;
+  border: none;
+}
+
+.timelinePostTextArea:focus {
+  outline: none;
+  border: none;
+}
+.imelineAddPostLine5 {
+  width: 1px;
+  height: 30px;
+  flex-grow: 0;
+  background-color: $LineC;
+}
+
+.timelineOrganizationWrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-items: start;
+}
+
+.PostTitleText {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: #000000;
+}
+
+.CreatePostTitleText {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: #000000;
+}
+
+.PostDisText {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: #000000;
+}
+
+.PostDisText2 {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: #6a6a6a;
+}
+
+.postMainDiv {
+  width: 100%;
+  min-height: max-content;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.postPublicViewMainDiv {
+  width: 660px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.postline01 {
+  height: 1px;
+  flex-grow: 0;
+  background-color: #d9dcee;
+}
+
+.followBTN2 {
+  width: 80px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  border: solid 1px #2cd1ef;
+  background-color: #2cd1ef;
+}
+
+.postMainDivMini {
+  width: 818px;
+  min-height: 280px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.organizationCard {
+  background-color: $WhiteBackground;
+  width: 308px;
+  border-radius: 10px;
+  padding: 20px 10px;
+  min-height: 200px;
+}
+
+.timeline-img {
+  width: 100% !important;
+  height: auto;
+}
+
+.timeline-main-profile-container {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.timeline-main-profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.timeline-large-profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.fixed-height-description {
+  height: 60px; /* Adjust to your desired fixed height */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Truncate text with ellipsis if it overflows */
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 350px;
+  font-size: 12px;
+  background-color: rgb(88, 88, 88);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 2;
+  font-family: $Poppins;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: white;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+.image-containerr {
+  width: 300px; /* Adjust to your desired fixed width */
+  height: 200px; /* Adjust to your desired fixed height */
+  overflow: hidden;
+}
+
+.homeMainSecFixed {
+  background-color: #f5f6fa;
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+
+.event-left-image-wrapper {
+  width: 20%;
+}
+
+.event-right-content-wrapper {
+  width: 80%;
+}
+
+.organization-middle-content-wrapper {
+  width: 50%;
+}
+
+.organization-right-content-wrapper {
+  width: 30%;
+}
+
+.slider-button {
+  position: absolute;
+  z-index: 99;
+  background-color: #ffffff;
+  opacity: 0.4;
+  padding: 8px;
+  border-radius: 100px;
+  transition: opacity 0.3s, transform 0.3s;
+  margin-top: -40px;
+}
+
+.slider-button:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.slider-button svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+/* Remove the hover effect on the icon */
+.slider-button svg:hover {
+  transform: scale(1);
+}
+
+.card-timeline {
+  flex: calc(100% - 10px); /* Two cards per row with 10px gap */
+  max-width: calc(100% - 10px);
+  margin: 5px; /* Add margin to create a 10px gap */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex; /* Make the card's content flex */
+}
+
+/* Profile image container */
+.profile-image-container-timeline {
+  width: 50px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  margin-right: 10px; /* Add spacing between image and content */
+}
+
+/* Content on the right */
+.content {
+  flex: 1; /* Take up all available space */
+}
+
+.timeline-event-container {
+  background-color: $WhiteBackground;
+  width: 308px;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 250px;
+}
+
+/* Timeline post option Popup css */
+.optionsPopup {
+  width: max-content;
+  height: fit-content;
+  top: 55px;
+  right: 5px;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.postOptionIcon {
+  height: 15px;
+  width: 15px;
+  margin-top: 1px;
+}
+
+.modalStructureCreatePost {
+  width: 500px;
+  max-height: 550px;
+  overflow: hidden;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  outline: none;
+}
+
+.createPostModalScroll {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.emojiPicker {
+  position: absolute;
+  bottom: 20px;
+  right: 80px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.createPostFeelingText {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #505050;
+}
+
+.modalStructureSelectProfie {
+  width: 350px;
+  max-height: 400px;
+  overflow: hidden;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  outline: none;
+}
+
+.modalStructureSelectProfie .modalContent {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.leftCardIcon {
+  width: 20px;
+  height: 25px;
+  padding-right: 2px;
+}
+
+.leftCardIconPublicPro {
+  width: 20px;
+  height: 20px;
+  padding-right: 2px;
+}
+
+.timelineLeftCardMenuScroll {
+  max-height: 150px;
+  overflow-y: auto;
+}

@@ -1,0 +1,641 @@
+.homeMidSecWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.homeSideBarSec {
+  height: fit-content;
+  max-height: 350px;
+  border-radius: 8px;
+  margin-top: 20px !important;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.dashboardSideBarSec {
+  width: 310px !important;
+  min-height: 200px;
+  height: 80vh;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top: 20px !important;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    width: 250px !important;
+  }
+}
+
+.dashboardSideBarSec2 {
+  width: 310px !important;
+
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    width: 250px !important;
+  }
+}
+
+.dashboardSideBar-sub-container {
+  width: 310px !important;
+  border-radius: 8px;
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    width: 250px !important;
+  }
+}
+
+.homeOrgSideBarSec {
+  width: 310px !important;
+  min-height: 40px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top: 20px !important;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    width: 250px !important;
+  }
+}
+
+.activateSB {
+  height: 35px;
+  width: 3px;
+  background-color: $DRMainThemeColor;
+}
+.sideBarBTNA {
+  height: 35px;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-left: 20px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $BlackText;
+}
+
+.sideBarBTN {
+  height: 35px;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-left: 23px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $BlackText;
+}
+
+.homeLeftBarMainText {
+  font-family: $Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+}
+
+.homeRightMainSec {
+  flex-grow: 1;
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 20px !important;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 50px;
+}
+
+.homeRightMainSec2 {
+  flex-grow: 1;
+  border-radius: 8px;
+  margin-right: 20px;
+  min-height: 80vh;
+  padding: 30px;
+  margin-top: 20px !important;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.homeRightMainSec3 {
+  width: 1150px;
+  min-height: 400px;
+  border-radius: 8px;
+  margin-left: 20px;
+  padding: 30px;
+  margin-top: 20px !important;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 50px;
+}
+
+.dashboardMainText {
+  font-family: $Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+}
+
+.dashboardMainTextA {
+  font-family: $Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  line-height: 22px;
+  color: $DRMainThemeColor;
+}
+
+.dashboardMainText-l {
+  font-family: $Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+}
+
+.viewAllBTN {
+  width: 90px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+  background-color: #ebeef4;
+}
+
+.eventCard {
+  max-width: 370px;
+  min-width: 320px;
+}
+
+.eventCard-detail-view {
+  width: calc(50% - 10px);
+  min-width: 320px;
+}
+
+.eventCard-detail-view:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.eventCard-responsive {
+  min-width: 310px;
+
+  @media (min-width: 1024px) and (max-width: 1230px) {
+    width: 49% !important;
+    margin-left: 1%;
+  }
+  @media #{$tabsL-layout}, #{$sm-layout} {
+    width: 49%;
+    margin-left: 1%;
+  }
+
+  @media #{$lg-layout}, #{$xl-layout}, #{$hd-layout} ,#{$k-layout} {
+    width: 24%;
+    max-width: 505px;
+    margin-left: 1%;
+  }
+}
+
+.listViewEventCard {
+  max-width: 340px;
+  min-width: 300px;
+}
+
+.eventCardImg {
+  border-top-left-radius: 10px; /* 2px */
+  border-top-right-radius: 10px; /* 2px */
+  height: 170px !important;
+  object-fit: cover;
+}
+
+.eventCardTime {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $LightRedText;
+}
+
+.liveEventCardTime {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: $LightRedText;
+}
+
+.eventMainText {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+}
+
+.eventUpcomingMainText {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: $BlackText;
+}
+
+.liveEventMainText {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: $BlackText;
+}
+
+.eventSubText {
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $LightGrayText;
+}
+
+.eventCardCount {
+  width: 50px;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+  background-color: $DRMainThemeColor;
+}
+
+.InterestedBTN {
+  width: 115px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $GrayText;
+  background-color: #ebeef4;
+}
+
+.InterestedTEXT {
+  margin-top: 3px !important;
+}
+
+.GoingBTN {
+  width: 90px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $GrayText;
+  background-color: #ebeef4;
+}
+
+.GoingBTN2 {
+  width: 90px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+  background-color: $DRMainThemeColor;
+}
+
+.ShearBTN {
+  width: 33px;
+  height: 33px;
+  padding-left: 3px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $GrayText;
+  background-color: #ebeef4;
+}
+
+.createNewItemsBTN {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ebeef4;
+}
+
+.disable-createNewItemsBTN {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  color: #d7d5d5;
+  background-color: #ebeef4;
+}
+
+.createItemText {
+  margin-top: 4px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $DarkBlueText;
+}
+
+.disable-createItemText {
+  margin-top: 4px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $LightGrayText;
+}
+
+.createItemSubText {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $GrayText;
+}
+
+.MenuHeaderContainer {
+  padding: 6px 10px;
+  border-bottom: 1px solid #d7d5d5;
+}
+
+.MenuHeaderContainerTopBorder {
+  padding: 10px 10px;
+  border-top: 1px solid #d7d5d5;
+}
+
+.modalsSubText {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+}
+
+.timelinePostProfileImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.organization-cards-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+.organization-cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 40%;
+
+  @media #{$lg-layout} {
+    transform: translate(-50%);
+    bottom: 33%;
+  }
+}
+
+.absolute-center-partnership {
+  position: absolute;
+  padding-left: 43px;
+  bottom: 40%;
+
+  @media #{$lg-layout} {
+    bottom: 36%;
+    padding-left: 35px;
+  }
+}
+
+.custom-dashboard .uppy-Dashboard-inner {
+  height: 400px !important;
+  width: 450px !important;
+}
+
+// .custom-dashboard
+//   .uppy-Dashboard--singleFile
+//   .uppy-Dashboard-Item-preview
+//   img.uppy-Dashboard-Item-previewImg {
+//   height: 100% !important;
+//   width: 100% !important;
+//   object-fit: cover !important;
+//   padding: 0 !important;
+// }
+
+.custom-inner-dashboard .uppy-Dashboard-Item-previewInnerWrap {
+  height: 190px !important;
+  width: 190px !important;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.custom-inner-dashboard
+  .uppy-Dashboard-Item-preview
+  img.uppy-Dashboard-Item-previewImg {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  padding: 0 !important;
+}
+
+.custom-object-fit-dashboard
+  .uppy-Dashboard-Item-preview
+  img.uppy-Dashboard-Item-previewImg {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  padding: 0 !important;
+}
+
+.saveItemsDownMainSec {
+  width: 100%;
+  background-color: $WhiteBackground;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.noSavedItemsSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.savedItemsImage {
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.savedItemCardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between divs as needed */
+}
+
+.savedItemCard {
+  width: calc(50% - 20px); /* 50% width for two divs with the gap */
+  height: 100px;
+  display: flex;
+  // align-items: start;
+  padding: 10px 10px 10px 0;
+  margin-bottom: 20px; /* Gap between rows */
+}
+
+.savedItemCardMainText {
+  flex-grow: 1;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $BlackText;
+}
+
+.savedItemCardEventText {
+  font-family: $Poppins;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #969696;
+}
+
+.savedPostCardEventText {
+  font-family: $Poppins;
+  padding-left: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #969696;
+}
+
+.savedItemCardSaveTimeText {
+  flex-grow: 1;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $BlackText;
+}
+
+.blueDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: $DRMainThemeColor;
+  margin-top: 2px;
+}
+.notify-icon-wrapper {
+  width: 32px;
+  height: 32px;
+}
+
+.notify-icon-wrapper img {
+  width: 100%;
+  height: 100%;
+}

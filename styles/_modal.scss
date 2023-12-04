@@ -1,0 +1,69 @@
+.share-centered-box {
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)";
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #000;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.4);
+  padding: 4;
+}
+
+.image-slider-popup {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.close-button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.slick-slide img {
+  width: 100%; /* Make sure the images fill the carousel */
+}
+
+.image-slider-container {
+  max-width: 1400px;
+  height: 780px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  outline: none;
+  padding: 10px;
+  margin: auto;
+
+  @media #{$tabsP-layout} {
+    max-width: 600px;
+  }
+  @media #{$tabsL-layout},  #{$sm-layout} {
+    max-width: 600px;
+    height: 600px;
+  }
+  @media #{$lg-layout} {
+    max-width: 1200px;
+    height: 600px;
+  }
+}
+
+.image-slider-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* CSS */
+.image-fade {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.image-fade.fade-out {
+  opacity: 0;
+}
+
+/* You can define more animation classes as needed */

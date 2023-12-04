@@ -1,0 +1,80 @@
+// fonts
+//@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF + Pro + Text:wght@100;200;300;400;500;600;700;800;900;bold&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+$background-image-path: url("../public/assets/images/congratzGIF.gif");
+
+$SFProText: "SFProText", sans-serif;
+$Poppins: "Poppins", sans-serif;
+// colors
+// background colors
+$DRMainThemeColor: #2cd1ef;
+$DRSubThemeColor: #f1f1fe;
+$DRExtraBlueThemeColor: #4c94e7;
+$WhiteBackground: #fff;
+// text colors
+$WhiteText: #fff;
+$BlackText: #000;
+$LowLightGrayText: #c9cde5;
+$LowLightGrayTet: #0d27b7;
+$GrayText: #686868;
+$LightGrayText: #9ca3b6;
+$LightGrayBorder: #edf0f4;
+$RedText: #cf4242;
+$LightRedText: #f67575;
+$LightBlueText: #3054ea;
+$DarkBlueText: #3c4465;
+//buttons colors
+$WhiteBTN: #fff;
+$GrayBTN: #d7dbf0;
+$LightGrayBTN: #f9faff;
+$LightBlueGrayBTN: #eceffc;
+$DarkGrayBTN: #bdc0ce;
+$BlueBTN: #3054ea;
+$PurpleBTN: #8f52dc;
+$RemoveBTN: #d61717;
+$BlackBTN: #3b4465;
+$GreenBTN: #4bd492;
+$BrownBTN: #f1f1f1;
+//inputFields colors
+$WhiteFields: #fff;
+$GrayFields: #e5e9fc;
+$LightGrayFields: #f0ebfc;
+//table Colors
+$GraySec: #aeb0cf;
+//Line Colors
+$LineC: #d9dcee;
+$LineC2: #999999;
+// Responsive Variables
+// tailwind variables
+//   'mobileS': {'min': '300px', 'max': '319px'},
+//   'mobileM': {'min': '320px', 'max': '374px'},
+//   'mobileL': {'min': '375px', 'max': '424px'},
+//   'tabs': {'min': '425px', 'max': '639px'},
+//   'sm': {'min': '640px', 'max': '767px'},
+//   'md': {'min': '768px', 'max': '1023px'},
+//   'lg': {'min': '1024px', 'max': '1279px'},
+//   'xl': {'min': '1280px', 'max': '1535px'},
+//   '2xl': {'min': '1536px'},
+
+//$xxl-layout: "only screen and (min-width: 1536px)";
+// $xl-layout: "only screen and (min-width: 1310px) and (max-width: 1535px)";
+// $lg-layout: "only screen and (min-width: 1024px) and (max-width: 1309px)";
+// $md-layout: "only screen and (min-width: 768px) and (max-width: 1023px)";
+// $sm-layout: "only screen and (min-width: 640px) and (max-width: 767px)";
+// $xs-layout: "only screen and (max-width: 768px)";
+// $xxxl-layout: "only screen and (min-width: 768px)";
+// $tabs-layout: "only screen and (min-width: 425px) and (max-width: 639px)";
+// $mobileL-layout: "only screen and (min-width: 375px) and (max-width: 424px)";
+// $mobileM-layout: "only screen and (min-width: 320px) and (max-width: 374px)";
+// $mobileS-layout: "only screen and (min-width: 300px) and (max-width: 319px)";
+
+$k-layout: "only screen and (min-width: 2560px )";
+$hd-layout: "only screen and (min-width: 1920px) and (max-width: 2559px)";
+$xl-layout: "only screen and (min-width: 1600px) and (max-width: 1919px)";
+$lg-layout: "only screen and (min-width: 1440px) and (max-width: 1599px)";
+$sm-layout: "only screen and (min-width: 1280px) and (max-width: 1439px)";
+$tabsL-layout: "only screen and (min-width: 1024px) and (max-width: 1279px)";
+$tabsP-layout: "only screen and (min-width: 768px) and (max-width: 1023px)";
+$mobileL-layout: "only screen and (min-width: 481px) and (max-width: 767px)";
+$mobileM-layout: "only screen and (min-width: 320px) and (max-width: 480px)";
+$mobileS-layout: "only screen and (min-width: 300px) and (max-width: 319px)";

@@ -1,0 +1,84 @@
+.postMainDivPublicProfile {
+  width: 760px;
+  min-height: 280px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.interest-category-container {
+  width: 120px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #eef1fb;
+  cursor: pointer;
+}
+
+.interest-category-container:hover {
+  background-color: #cbcfd5;
+}
+
+.interest-category-img-container {
+  width: 40px;
+  height: 40px;
+}
+
+.interest-category-container-selected {
+  width: 120px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid #2cd1ef;
+  box-shadow: 0 0 10px #2cd1ef;
+  cursor: pointer;
+}
+
+.outlined-button {
+  padding: 5px 10px;
+  width: 100px;
+
+  border: 1px solid #2cd1ef;
+  color: #2cd1ef;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.08px;
+}
+
+.remove-text {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.08px;
+}
+
+.network-img-container {
+  width: 20px;
+  height: 20px;
+}
+
+.edit-dropdown-container {
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px;
+
+  border: solid 2px #ebeef4;
+}
+
+.edit-dropdown-without-border {
+  width: 100%;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+.content-inner-container {
+  width: calc(100% - 100px);
+}

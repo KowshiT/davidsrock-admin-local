@@ -1,0 +1,453 @@
+.main-Wrapper-container {
+  width: 1000px;
+  min-height: calc(100vh - 175px);
+  height: 90vh;
+  margin: auto;
+
+  /* Mobile Devices */
+  @media (max-width: 767px) {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Tablets - Portrait */
+  @media #{$tabsP-layout} {
+    width: 90%;
+  }
+
+  /* Tablets - Landscape */
+  @media #{$tabsL-layout} {
+    width: 95%;
+  }
+
+  /* Laptops - Small */
+  @media #{$sm-layout} {
+    width: 95%;
+  }
+
+  /* Laptops - Medium */
+  @media #{$lg-layout} {
+    width: 95%;
+  }
+
+  /* Laptops - Large */
+  @media #{$xl-layout} {
+    width: 95%;
+  }
+
+  /* Larger Monitors - Full HD */
+  @media #{$hd-layout} {
+    width: 1400px;
+  }
+
+  /* Larger Monitors - 2K and 4K */
+  @media #{$k-layout} {
+    width: 1600px;
+  }
+}
+
+.sub-Wrapper-container {
+  display: flex;
+  flex-direction: row; /* or column, depending on your layout */
+  height: 100%;
+  padding: 20px 0;
+}
+.message-left-main-container {
+  background: white;
+  width: 350px;
+  border-radius: 8px;
+  height: 100%; /* This will make it take up the full height of sub-Wrapper-container */
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.message-left-main-header-wrapper {
+  padding: 20px 20px;
+  border-bottom: 1px solid #d9dcee;
+}
+
+.search-bar-container-message {
+  padding: 5px;
+  background-color: #edeef3;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 8px;
+}
+
+.inner-container-message {
+  margin: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.right-inner-container-message {
+  margin: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.message-left-main-footer-wrapper {
+  padding: 20px 20px;
+  border-top: 1px solid #d9dcee;
+  display: flex;
+}
+
+.message-left-conversation-wrapper {
+  flex: 1;
+  margin-top: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.message-left-inner-conversation-content {
+  overflow-y: auto;
+}
+
+.new-message-button {
+  padding: 0 20px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.card-message {
+  flex: calc(100% - 10px); /* Two cards per row with 10px gap */
+  max-width: calc(100% - 10px);
+  margin: 5px; /* Add margin to create a 10px gap */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid $LightGrayBorder;
+  display: flex; /* Make the card's content flex */
+}
+
+.card-message :last-child {
+  border-bottom: none;
+}
+
+.card-message-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.message-right-card-container {
+  background: white;
+  flex: 1;
+  border-radius: 8px;
+  height: 100%; /* This will make it take up the full height of sub-Wrapper-container */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.message-header {
+  max-width: calc(100% - 10px);
+  margin: 5px; /* Add margin to create a 10px gap */
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid $LightGrayBorder;
+  display: flex; /* Make the card's content flex */
+}
+
+.send-message-container {
+  width: 100%;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.send-message-input-wrapper {
+  background-color: #efeff7;
+  border-radius: 20px;
+  padding: 0 10px;
+  flex: 1;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.send-message-input-wrapper input {
+  font-family: $Poppins;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 10px;
+  background: none;
+  margin: auto 0;
+  width: 100%;
+}
+
+.send-message-input-wrapper input:focus {
+  outline: none;
+}
+
+.profile-image-container-message {
+  width: 30px; /* Fixed width */
+  height: 30px; /* Fixed height */
+  margin-right: 10px; /* Add spacing between image and content */
+}
+
+.content-message {
+  width: 80%;
+}
+
+.opposite-user-message-background {
+  padding: 5px 10px;
+  background-color: #dfe5f3;
+  border-radius: 20px;
+}
+.user-message-background {
+  padding: 5px 10px;
+  background-color: #2cd1ef;
+  border-radius: 20px;
+  color: white !important;
+}
+
+.opposite-message-container {
+  max-width: calc(100% - 10px);
+  margin: 5px; /* Add margin to create a 10px gap */
+  padding: 5px 10px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex; /* Make the card's content flex */
+}
+
+.user-message-500 {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 00;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+
+/* Content on the right */
+.content-reverse {
+  flex: 1; /* Take up all available space */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*Message Create New Message Modal Styles */
+
+.message-modal-main-Wrapper-container {
+  width: 500px;
+  min-height: calc(30vh - 175px);
+  height: 90vh;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  outline: none;
+  background-color: white;
+  border-radius: 10px;
+
+  /* Mobile Devices */
+  @media (max-width: 767px) {
+    width: 95%;
+    margin: 0;
+  }
+
+  /* Tablets - Portrait */
+  @media #{$tabsP-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+
+  /* Tablets - Landscape */
+  @media #{$tabsL-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+
+  /* Laptops - Small */
+  @media #{$sm-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+
+  /* Laptops - Medium */
+  @media #{$lg-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+
+  /* Laptops - Large */
+  @media #{$xl-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+
+  /* Larger Monitors - Full HD */
+  @media #{$hd-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+
+  /* Larger Monitors - 2K and 4K */
+  @media #{$k-layout} {
+    width: 500px;
+    height: 60vh;
+  }
+}
+
+.find-user-input-container {
+  flex: 1;
+}
+.find-user-input {
+  font-family: $Poppins;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 10px;
+  background: none;
+  margin: auto 0;
+  width: 100%;
+}
+
+.find-user-input:focus {
+  outline: none;
+}
+
+.suggest-modal-main-Wrapper-container {
+  width: 98%;
+  min-height: calc(30vh - 175px);
+  height: 200px;
+  max-width: 400px;
+
+  overflow: hidden; /* Ensure the shadow doesn't extend beyond the border radius */
+
+  box-shadow: -1px 0 10px -10px transparent, 1px 0 10px -10px transparent,
+    0 10px 10px -10px;
+  /* You can adjust the values and color as needed */
+
+  outline: none;
+  background-color: white;
+  border-radius: 10px;
+
+  /* Mobile Devices */
+  @media (max-width: 767px) {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Tablets - Portrait */
+  @media #{$tabsP-layout} {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Tablets - Landscape */
+  @media #{$tabsL-layout} {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Laptops - Small */
+  @media #{$sm-layout} {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Laptops - Medium */
+  @media #{$lg-layout} {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Laptops - Large */
+  @media #{$xl-layout} {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Larger Monitors - Full HD */
+  @media #{$hd-layout} {
+    width: 98%;
+    height: 200px;
+  }
+
+  /* Larger Monitors - 2K and 4K */
+  @media #{$k-layout} {
+    width: 98%;
+    height: 200px;
+  }
+}
+
+.suggest-modal-inner-scroll {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.no-result-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 60%;
+
+  /* Tablets - Landscape */
+  @media #{$tabsL-layout} {
+    left: 65%;
+  }
+
+  /* Tablets - Portrait */
+  @media #{$tabsP-layout} {
+    left: 75%;
+  }
+
+  @media #{$mobileL-layout} {
+    left: 80%;
+  }
+}
+
+.no-result-container-upcoming {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 70%;
+  left: 50%;
+
+  /* Tablets - Landscape */
+  @media #{$tabsL-layout} {
+    left: 65%;
+  }
+
+  /* Tablets - Portrait */
+  @media #{$tabsP-layout} {
+    left: 75%;
+  }
+
+  @media #{$mobileL-layout} {
+    left: 80%;
+  }
+}

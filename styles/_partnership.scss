@@ -1,0 +1,524 @@
+.search-bar-container {
+  padding: 5px;
+  background-color: #f3f4f8;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 20px;
+}
+
+.search-icon {
+  margin: auto 10px;
+  width: 25px;
+  height: 25px;
+  color: gray;
+}
+.search-input {
+  font-family: $Poppins;
+  background-color: transparent;
+  padding: 3px;
+}
+.search-input:focus {
+  border: none;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #676f8c;
+}
+
+.partnershipHeader {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 35px;
+  letter-spacing: 0.18px;
+  color: #1d2130;
+}
+
+.partnershipSubTopic {
+  font-family: $Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+
+.partnershipMinHeader {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+
+.partnershipGrayText {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $LightGrayText;
+}
+
+.partnershipGrayText-600 {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $LightGrayText;
+}
+
+.partnership-request-container {
+  padding-top: 10px;
+  padding-right: 10px;
+  min-width: 400px;
+  width: 49%;
+  margin-left: 1%;
+
+  @media #{$k-layout} {
+    width: 32%;
+  }
+}
+.partnership-request-border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid $LightGrayBorder;
+}
+
+.partnership-request-sub-container {
+  margin-left: 10px;
+}
+
+.accept-button {
+  width: 90px;
+  height: 30px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.accept-button-default-width {
+  width: 180px;
+  height: 30px;
+  font-family: $Poppins;
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.08px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.cancel-button-default-width {
+  width: 180px;
+  height: 30px;
+  font-family: $Poppins;
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.08px;
+  text-align: center;
+  align-items: center;
+  color: #555555;
+  background-color: $LightBlueGrayBTN;
+}
+
+.cancel-button {
+  width: 90px;
+  height: 30px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #b4b4b4;
+  background-color: #ebeef4;
+}
+
+.request-button {
+  width: 120px;
+  height: 38px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tab-header {
+  display: flex;
+  background-color: white;
+  border: 1px solid #2cd1ef;
+  border-radius: 60px;
+}
+
+.tab-label {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  flex: 1;
+  padding: 7px 5px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #2cd1ef;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tab-header :hover {
+  background-color: #f3f4f8;
+}
+
+.tab-label.active :hover {
+  background-color: transparent;
+}
+
+.tab-label:first-child {
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.tab-label:last-child {
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.tab-label.active {
+  background-color: #2cd1ef;
+  border-bottom: 1px solid #2cd1ef;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.custom-image-style {
+  width: 150px; /* Your desired width */
+  /* Other styling properties */
+}
+
+.partnershipCard {
+  min-width: 280px;
+  width: 32%;
+  margin-left: 1%;
+  height: 220px;
+  border-radius: 8px;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  @media #{$k-layout} {
+    // Styles for extra-extra-large screens
+    width: 24%;
+    max-width: 505px;
+  }
+}
+
+.partnershipCard-dashboard {
+  width: 207px !important;
+  height: 170px;
+  border-radius: 8px;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.baseImage {
+  float: left;
+}
+.overlayImage {
+  transform: translateX(-20%); /*  to the left */
+}
+.overlayImage2 {
+  transform: translateX(-10%); /*  to the left */
+}
+
+.coverImageContainer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 300px;
+  width: 1160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  background-color: #0098b3;
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.partnership-h3-white-text {
+  position: relative;
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+  z-index: 100;
+}
+
+.partnership-p-white-text {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+}
+
+.partnership-p-gray-text {
+  font-family: $Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $LightGrayText;
+}
+
+.partnership-h5-black-text {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.topLeftText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  color: white;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tabContainer {
+  width: 1160px;
+  background-color: $WhiteText;
+  padding-top: 8px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.tabContainer-partnership {
+  width: 1160px;
+  background-color: $WhiteText;
+  padding-top: 8px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 55px;
+}
+
+.show-uploaded-image {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.show-uploaded-image-container {
+  min-height: 200px;
+}
+
+.image-margin {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.image-container-all {
+  width: 100%; /* Set the desired width */
+  height: 80px; /* Set the desired height */
+  overflow: hidden; /* Hide any overflow if the image is larger */
+  border-radius: 3px;
+}
+
+.image-styles {
+  width: 100%;
+  height: 80px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.imagesCard {
+  width: 340px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+  background-color: white;
+  min-height: 100px;
+}
+
+.follower-container {
+  width: 90px;
+}
+
+.publicURLProfileImage {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px; /* Add negative margin to create a 10px gap */
+  margin-top: 10px;
+}
+
+.card-container-follower {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* Individual card style */
+.card {
+  flex: calc(50% - 10px); /* Two cards per row with 10px gap */
+  max-width: calc(50% - 10px);
+  margin: 5px; /* Add margin to create a 10px gap */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid $LightGrayBorder;
+  display: flex; /* Make the card's content flex */
+}
+
+.card-follower {
+  flex: calc(100%); /* Two cards per row with 10px gap */
+  max-width: calc(100%);
+  margin: 5px; /* Add margin to create a 10px gap */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid $LightGrayBorder;
+  display: flex; /* Make the card's content flex */
+}
+
+.profile-image-container {
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  margin-right: 10px; /* Add spacing between image and content */
+}
+.profile-image-container-follow {
+  width: 50px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  margin-right: 10px; /* Add spacing between image and content */
+}
+
+.profile-image-container-follow-partnership {
+  width: 50px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  border-radius: 50%;
+}
+
+/* Profile image container */
+.profile-image-container-partnership {
+  width: 100px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  margin-right: 10px; /* Add spacing between image and content */
+}
+
+/* Profile image style */
+.profile-image {
+  width: 100%; /* Make the image take up the full container */
+  height: 100%; /* Make the image take up the full container */
+  border-radius: 50%; /* Make it a circle */
+  object-fit: cover;
+}
+
+.profile-image-partnership {
+  width: 100%; /* Make the image take up the full container */
+  height: 100%; /* Make the image take up the full container */
+  object-fit: cover;
+}
+
+/* Content on the right */
+.content {
+  flex: 1; /* Take up all available space */
+}
+
+/* Media query for larger screens */
+@media #{$k-layout} {
+  .card {
+    flex: calc(33.3% - 10px); /* Three cards per row with 10px gap */
+    max-width: calc(33.3% - 10px);
+  }
+}
+
+@media #{$lg-layout}, #{$xl-layout}, #{$hd-layout} {
+  .card {
+    flex: calc(50% - 10px); /* Two cards per row with 10px gap */
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media #{$tabsP-layout} {
+  .card {
+    flex: calc(50% - 10px); /* Two cards per row with 10px gap */
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media #{$mobileL-layout} {
+  .card {
+    flex: calc(100% - 10px); /* Four cards per row with 10px gap */
+    max-width: calc(100% - 10px);
+  }
+}

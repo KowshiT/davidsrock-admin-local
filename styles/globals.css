@@ -1,0 +1,444 @@
+/* ./styles/globals.css */
+/* @import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF + Pro + Text:wght@100;200;300;400;500;600;700;800;900;bold&display=swap);
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF + Pro + Text:wght@100;200;300;400;500;600;700;800;900;bold&display=swap); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landingPageLeft {
+  height: 100vh;
+  flex-grow: 0;
+  background-color: #2cd1ef;
+}
+
+.landingPageRight {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.landingPageText01 {
+  flex-grow: 0;
+  margin-top: 8px;
+  margin-left: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.landingPageText02 {
+  flex-grow: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: inherit;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #1d2130;
+}
+
+.landingPageText03 {
+  flex-grow: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #353b52;
+}
+
+.landingPageText04 {
+  flex-grow: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #4c4f5b;
+}
+
+.loginBTN {
+  width: 120px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2cd1ef;
+  border: solid 2px #2cd1ef;
+}
+
+.signUpBTN {
+  width: 120px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.logincardInputsField {
+  width: 320px;
+  height: 40px;
+  flex-grow: 0;
+  margin-top: 15px;
+  margin-right: -15px;
+  padding: 0px 20px 0px 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #f8f8f8 !important;
+  line-height: 16.9px;
+  font-weight: normal;
+  border-radius: 54px !important;
+  background-color: transparent !important;
+  border: 1px solid #f8f8f8 !important;
+}
+
+.loginMainText {
+  font-family: "SFProText", sans-serif;
+  font-size: 17px;
+  color: #f8f8f8 !important;
+  line-height: 16.9px;
+  letter-spacing: 1.08px;
+  font-weight: 500;
+}
+
+.loginMainBTN {
+  width: 320px;
+  height: 40px;
+  font-family: "SFProText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.forgotPasswordText {
+  font-size: 15px;
+  color: #2cd1ef !important;
+  font-family: "SFProText", sans-serif;
+  line-height: 16.9px;
+  letter-spacing: 1.08px;
+  font-weight: 500;
+}
+
+.signUpText {
+  font-size: 15px;
+  color: #f8f8f8 !important;
+  font-family: "SFProText", sans-serif;
+  line-height: 16.9px;
+  letter-spacing: 1.08px;
+  font-weight: 500;
+}
+
+/* Text Field Styles */
+.inputBaseInput {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputBaseError {
+  flex-grow: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #cf4242;
+}
+
+.validationError {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #cf4242;
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.validationErrorBorder {
+  border: 1px solid #cf4242 !important;
+}
+
+.field__input {
+  --uiFieldPlaceholderColor: var(--fieldPlaceholderColor, #767676);
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.field__input:focus::-webkit-input-placeholder {
+  color: var(--uiFieldPlaceholderColor);
+}
+
+.field__input:focus::-moz-placeholder {
+  color: var(--uiFieldPlaceholderColor);
+}
+
+.field {
+  --uiFieldBorderWidth: var(--fieldBorderWidth, 2px);
+  --uiFieldPaddingRight: var(--fieldPaddingRight, 1rem);
+  --uiFieldPaddingLeft: var(--fieldPaddingLeft, 1rem);
+  --uiFieldBorderColorActive: var(
+    --fieldBorderColorActive,
+    rgba(22, 22, 22, 1)
+  );
+  display: var(--fieldDisplay, inline-flex);
+  position: relative;
+  font-size: var(--fieldFontSize, 1rem);
+}
+
+.field__input:focus {
+  outline: none;
+}
+
+.field__input::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.field__input::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.field__input:focus::-webkit-input-placeholder {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.field__input:focus::-moz-placeholder {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.field__label-wrap {
+  box-sizing: border-box;
+  pointer-events: none;
+  cursor: text;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.field__label-wrap::after {
+  content: "";
+  box-sizing: border-box;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.field__input:focus ~ .field__label-wrap::after {
+  opacity: 1;
+}
+
+.field__label {
+  position: absolute;
+  left: var(--uiFieldPaddingLeft);
+  top: calc(50% - 0.5em);
+  line-height: 1;
+  font-family: "SFProText", sans-serif;
+  font-weight: normal;
+  transition: top 0.2s cubic-bezier(0.9, -0.15, 0.1, 1.15),
+    opacity 0.2s ease-out, font-size 0.2s ease-out;
+  will-change: bottom, opacity, font-size;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #f8f8f8 !important;
+  line-height: 16.9px;
+  font-weight: normal;
+}
+
+.field__input:not(:-moz-placeholder-shown) ~ .field__label-wrap .field__label {
+  --fieldHintFontSize: var(--fieldHintFontSizeFocused, 0.75rem);
+  top: var(--fieldHintTopHover, 0.55rem);
+}
+
+.field__input:focus ~ .field__label-wrap .field__label,
+.field__input:not(:placeholder-shown) ~ .field__label-wrap .field__label {
+  --fieldHintFontSize: var(--fieldHintFontSizeFocused, 0.75rem);
+  top: var(--fieldHintTopHover, 0.55rem);
+}
+
+/* .navbarMainSec {
+  background-color: #2cd1ef;
+  height: 73px;
+} */
+
+.navBarProfileDiv {
+  background-color: #6cdff4;
+  border-radius: 50px;
+  height: 43px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.navBarProfileNameText {
+  flex-grow: 0;
+  font-family: "SFProText", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.line {
+  height: 1px;
+  flex-grow: 0;
+  background-color: #d9dcee;
+}
+
+.homeMainSec {
+  background-color: #f5f6fa;
+}
+
+.homeMidSec {
+  min-height: 79vh;
+}
+
+.homeSideBarSec {
+  width: 310px;
+  min-height: 200px;
+  max-height: 350px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 20px !important;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.activateSB {
+  height: 35px;
+  width: 3px;
+  background-color: #2cd1ef;
+}
+
+.sideBarBTNA {
+  height: 35px;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: #000;
+}
+
+.sideBarBTN {
+  height: 35px;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-left: 23px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: #000;
+}
+
+.homeLeftBarMainText {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #000;
+}
+/* 
+.homeRightMainSec {
+  width: 1150px;
+  min-height: 650px;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 30px;
+  margin-top: 20px !important;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 50px;
+} */
+
+.dashboardMainText {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #000;
+}
+
+.viewAllBTN {
+  width: 90px;
+  height: 33px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #000;
+  background-color: #ebeef4;
+} /*# sourceMappingURL=globals.css.map */

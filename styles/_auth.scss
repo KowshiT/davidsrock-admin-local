@@ -1,0 +1,512 @@
+// fonts
+// @import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF + Pro + Text:wght@100;200;300;400;500;600;700;800;900;bold&display=swap);
+$SFProText: "SFProText", sans-serif;
+$Poppins: "Poppins", sans-serif;
+
+// $xxl-layout: "only screen and (min-width: 1536px)";
+// $xl-layout: "only screen and (min-width: 1310px) and (max-width: 1535px)";
+// $lg-layout: "only screen and (min-width: 1024px) and (max-width: 1309px)";
+// $md-layout: "only screen and (min-width: 768px) and (max-width: 1023px)";
+// $sm-layout: "only screen and (min-width: 640px) and (max-width: 767px)";
+// $xs-layout: "only screen and (max-width: 768px)";
+// $xxxl-layout: "only screen and (min-width: 768px)";
+// $tabs-layout: "only screen and (min-width: 425px) and (max-width: 639px)";
+// $mobileL-layout: "only screen and (min-width: 375px) and (max-width: 424px)";
+// $mobileM-layout: "only screen and (min-width: 320px) and (max-width: 374px)";
+// $mobileS-layout: "only screen and (min-width: 300px) and (max-width: 319px)";
+
+$k-layout: "only screen and (min-width: 2560px )";
+$hd-layout: "only screen and (min-width: 1920px) and (max-width: 2559px)";
+$xl-layout: "only screen and (min-width: 1600px) and (max-width: 1919px)";
+$lg-layout: "only screen and (min-width: 1440px) and (max-width: 1599px)";
+$sm-layout: "only screen and (min-width: 1280px) and (max-width: 1439px)";
+$tabsL-layout: "only screen and (min-width: 1024px) and (max-width: 1279px)";
+$tabsP-layout: "only screen and (min-width: 768px) and (max-width: 1023px)";
+$mobileL-layout: "only screen and (min-width: 481px) and (max-width: 767px)";
+$mobileM-layout: "only screen and (min-width: 320px) and (max-width: 480px)";
+$mobileS-layout: "only screen and (min-width: 300px) and (max-width: 319px)";
+
+.landingPageLeft {
+  height: 100vh;
+  flex-grow: 0;
+  background-color: #2cd1ef;
+}
+
+.landingPageRight {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.landingPageText01 {
+  flex-grow: 0;
+  margin-top: 8px;
+  margin-left: 18px;
+  font-family: $Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.landingPageText02 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: inherit;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #1d2130;
+}
+
+.landingPageText03 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #464c66;
+}
+
+.landingPageText04 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #4c4f5b;
+}
+
+.loginBTN {
+  width: 120px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2cd1ef;
+  border: solid 2px #2cd1ef;
+}
+
+.disableLoginBTN {
+  width: 120px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #b3b1b1;
+  background-color: #dfdfdf;
+  border: solid 2px #dfdfdf;
+  cursor: auto;
+}
+
+.signUpBTN {
+  width: 120px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.logincardInputsField {
+  width: 320px;
+  height: 40px;
+  flex-grow: 0;
+  margin-right: -15px;
+  padding: 0px 20px 0px 20px;
+  font-family: $Poppins;
+  font-size: 13px;
+  color: #686868 !important;
+  line-height: 16.9px;
+  font-weight: 500;
+  border-radius: 8px !important;
+  // box-shadow: 0 8px 24px 0 rgba(212, 218, 235, 0.3);
+  background-color: #ffffff !important;
+  border: 1px solid #c8c8c8 !important;
+}
+
+.logincardPhoneNumberInputsField {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  border: solid 2px #ebeef4;
+}
+
+.loginMainText {
+  font-family: $SFProText;
+  font-size: 20px;
+  color: #212121 !important;
+  line-height: 16.9px;
+  font-weight: 600;
+}
+
+.emailVerifiedMainText1 {
+  font-family: $SFProText;
+  font-size: 18px;
+  color: #45bf66 !important;
+  line-height: 16.9px;
+  font-weight: 600;
+}
+
+.emailVerifiedMainText2 {
+  font-family: $SFProText;
+  font-size: 15px;
+  color: #212121 !important;
+  line-height: 16.9px;
+  font-weight: 600;
+}
+
+.almostDoneText {
+  font-family: $SFProText;
+  font-size: 20px;
+  color: #45bf66 !important;
+  line-height: 16.9px;
+  font-weight: 600;
+}
+
+.loginMainBlackText {
+  font-family: $SFProText;
+  font-size: 17px;
+  color: #000000;
+  line-height: 16.9px;
+  letter-spacing: 1.08px;
+  font-weight: 500;
+}
+
+.loginMainBTN {
+  width: 320px;
+  height: 40px;
+  font-family: $SFProText;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+  border-radius: 8px;
+}
+
+.ResendOTPBTN {
+  width: 320px;
+  height: 40px;
+  font-family: $SFProText;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #2cd1ef;
+  background-color: #ffffff;
+  border: 2px solid #2cd1ef;
+  border-radius: 8px;
+}
+
+.ResendOTPDisableBTN {
+  width: 320px;
+  height: 40px;
+  font-family: $SFProText;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #9a9a9a;
+  border: 2px solid #2cd1ef;
+  border-radius: 8px;
+}
+
+.loginMainBTNDisable {
+  width: 320px;
+  height: 40px;
+  font-family: $SFProText;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #bdc0ce;
+  border-radius: 8px;
+}
+
+.uploadProfilepicMainBTN {
+  width: 200px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+  border-radius: 8px;
+}
+
+.authInterestSaveBTN {
+  width: 150px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+  border-radius: 8px;
+}
+
+.authInterestBackBTN {
+  width: 150px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  text-align: center;
+  color: #ffffff;
+  background-color: #b4b4b4;
+  border-radius: 8px;
+}
+
+.forgotPasswordText {
+  font-size: 15px;
+  color: #2cd1ef !important;
+  font-family: $SFProText;
+  line-height: 16.9px;
+  letter-spacing: 1.08px;
+  font-weight: 500;
+}
+
+.signUpText {
+  font-size: 13px;
+  color: #212121 !important;
+  font-family: $Poppins;
+  font-weight: 500;
+}
+
+.imageUploadText {
+  font-size: 18px;
+  color: #212121 !important;
+  font-family: $Poppins;
+  font-weight: 500;
+}
+
+.signUpWithText {
+  font-size: 13px;
+  color: #747474 !important;
+  font-family: $Poppins;
+  font-weight: 500;
+}
+
+.signUpBlackText {
+  font-size: 15px;
+  color: #000000 !important;
+  font-family: $SFProText;
+  line-height: 16.9px;
+  letter-spacing: 1.08px;
+  font-weight: 500;
+}
+
+.email-sign-up-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.loginWordBtn {
+  color: #2cd1ef;
+}
+
+.emailVerifyCard {
+  width: 400px;
+  // background-color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  min-height: 200px;
+  height: fit-content;
+}
+
+.avatar-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.plusBTNIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+}
+.signUpmainDIV {
+  width: 450px;
+  height: 96vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.loginmainDIV {
+  width: 450px;
+  height: 96vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.interestmainDIV {
+  width: 600px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.profilePicUploadmainDIV {
+  width: 450px;
+  min-height: 45vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.forgotpasswordmainDIV {
+  width: 450px;
+  min-height: 50vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.alertmsgmainDIV {
+  width: 450px;
+  min-height: 45vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.resetpasswordmainDIV {
+  width: 450px;
+  min-height: 70vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.textinputtitle {
+  font-size: 14px;
+  color: #686868 !important;
+  font-family: $Poppins;
+  font-weight: 500;
+}
+
+.googleSignUpBTN {
+  border-radius: 20px;
+  border: 1px solid #dad9d9;
+  padding: 5px;
+}
+
+.imageDIV {
+  border-radius: 10px;
+}
+
+.interestsCatBTNA {
+  width: 130px;
+  height: 131px;
+  border-radius: 12px;
+
+  @media #{$lg-layout}, #{$sm-layout}, #{$lg-layout}, #{$tabsP-layout} {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.interestsCatBTNASelect {
+  width: 130px;
+  height: 131px;
+  border-radius: 12px;
+  border: 3px solid #2cd1ef;
+
+  @media #{$lg-layout}, #{$sm-layout}, #{$tabsL-layout}, #{$tabsP-layout} {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.interestsCatText {
+  font-family: $Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #fff;
+
+  @media #{$lg-layout}, #{$sm-layout}, #{$tabsL-layout}, #{$tabsP-layout} {
+    font-size: 14px;
+  }
+}

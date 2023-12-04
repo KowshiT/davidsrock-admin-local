@@ -1,0 +1,1234 @@
+.createOrgnzBTN {
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ebeef4;
+}
+
+.orgnzCatBTNA {
+  width: 88px;
+  height: 88px;
+  border-radius: 8px;
+  background-color: #dbdfeb;
+}
+
+.orgnzCatBTNASelect {
+  width: 88px;
+  height: 88px;
+  border-radius: 8px;
+  background-color: #2cd1ef;
+}
+
+.orgnzCatBTNASelectOrgCreate {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid #2cd1ef;
+  box-shadow: 0 0 10px #2cd1ef;
+}
+
+.orgnzCatBTNAOrgCreate {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #eef1fb;
+}
+
+.orgnzCatBTN {
+  width: 88px;
+  height: 88px;
+  border-radius: 8px;
+  border: solid 1px #ebeef4;
+}
+
+.orgnzCatBTN2 {
+  width: 88px;
+  height: 88px;
+  border-radius: 8px;
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
+}
+
+.orgCatText {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $DarkBlueText;
+}
+
+.becomeAOrgSec {
+  height: 155px;
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 20px !important;
+  background-color: #2cd4f1;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.becomeAOrg-responsive {
+  width: 310px;
+  height: 155px;
+  padding: 25px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-top: 20px !important;
+  background-color: #2cd4f1;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    width: 250px !important;
+  }
+}
+
+.becomeAOrgSecNew {
+  height: 155px;
+  padding: 25px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: 20px !important;
+  background-color: #2cd4f1;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.becomeAOrgSecNewWSecWrapper {
+  margin-left: 15px;
+  width: 310px;
+
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    width: 250px;
+  }
+}
+
+.becomeAOrgSecNewWSec {
+  width: 310px;
+  height: 320px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media #{$lg-layout} {
+    // Styles for extra-extra-large screens
+    height: 290px;
+    width: 250px;
+  }
+}
+
+.becomeaOrgMainText {
+  font-family: $Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $WhiteText;
+}
+
+.becomeaOrgSubText {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $WhiteText;
+}
+
+.orgRightMainSec {
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-top: 20px !important;
+  margin-bottom: 50px;
+  padding-right: 4px;
+}
+
+.orgListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  min-height: 350px;
+}
+
+.orgListCard {
+  width: 19.2%;
+  margin-left: 0.8%;
+  min-width: 180px !important;
+  height: 220px;
+  border-radius: 8px;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media #{$tabsL-layout} {
+    width: 32%;
+    margin-left: 1%;
+  }
+
+  @media #{$k-layout} {
+    width: 24%;
+    max-width: 505px;
+  }
+}
+
+.organization-cards-wrapper .orgListCard2 {
+  width: 150px !important;
+  height: 200px;
+  border-radius: 8px;
+  padding: 5px;
+  flex: 0 0 auto;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-right: 10px;
+}
+
+.orgListCard3 {
+  width: 150px !important;
+  height: 170px;
+  border-radius: 8px;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media (min-width: 1280px) and (max-width: 1500px) {
+    width: 11rem !important;
+    margin-left: -0.9rem;
+  }
+}
+
+.orgListCardText {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+
+  @media #{$lg-layout} {
+    font-size: 11px;
+  }
+}
+
+.orgListCardText-left {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: $BlackText;
+
+  @media #{$lg-layout} {
+    font-size: 12px;
+  }
+}
+
+.followBTN {
+  width: 110px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2cd1ef;
+  border: solid 1px #2cd1ef;
+}
+
+.followBtn3 {
+  width: 110px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.unfollowBtn-small {
+  width: 80px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2cd1ef;
+  border: solid 1px #2cd1ef;
+}
+
+.createOrganizationTxt {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 35px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #1d2130;
+}
+
+.createOrganizationTxt02 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 22px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #1d2130;
+}
+
+.createOrganizationTxt03 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #676d85;
+}
+
+.createOrganizationTxt04 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #676d85;
+}
+
+.createOrganizationTxt05 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #505050;
+}
+
+.createOrganizationLink05 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #2cd1ef;
+}
+
+.createOrganizationLink05:hover {
+  text-decoration: underline;
+}
+
+.createOrganizationTxt06 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 17px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #505050;
+}
+
+.createOrganizationTxt06A {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 17px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: $DRMainThemeColor;
+}
+
+.createOrgnzGSBTN {
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: $DRMainThemeColor;
+  color: #fff;
+}
+
+.createOrgnzGSBTNText {
+  margin-top: 4px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+}
+
+.organizationNameInput {
+  width: 550px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.edit-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.edit-textArea {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.organizationNameInputShort {
+  width: 270px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.organizationNameInputWithPadding {
+  width: 550px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.organizationNameInputWithoutHeight {
+  width: 550px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.aboutOrganizationInput {
+  width: 550px;
+  height: 130px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.chooseFileBTN {
+  width: 120px;
+  height: 30px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #565656;
+  border: solid 2px #2cd1ef;
+}
+
+.uploadOrganizationLogoText {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #565656;
+}
+
+.organizationDetailsCoverImage {
+  border-top-left-radius: 10px;
+  /* 2px */
+  border-top-right-radius: 10px;
+  /* 2px */
+  height: 350px !important;
+  width: 1160px;
+  object-fit: cover;
+}
+
+.dashboardOrganizationProfileImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.menubarProfileImage {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.authSignupProfileImage {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.navbarProfileImageWrapper {
+  margin-top: 0.25rem;
+}
+
+.navbarProfileImage {
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.timelineProfileImage {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 100px;
+
+  @media #{$lg-layout} {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.timelineFollowOrgProfileImage {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.timelineRecentJoinOrgProfileImage {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.orgListViewProfileImage {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.orgListViewProfileImage-container {
+  height: 110px;
+  width: 110px;
+}
+
+.orgDetailViewProfileImage {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.coverProfileImagesSec {
+  height: 390px !important;
+  background-color: $WhiteBackground;
+}
+
+.organizationMainDetailsSec {
+  min-height: 300px;
+  width: 1160px;
+  background-color: $WhiteBackground;
+  border-bottom-left-radius: 10px;
+  /* 2px */
+  border-bottom-right-radius: 10px;
+  /* 2px */
+}
+
+.organizationMainDetailsSecContent {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.publicProfileMainDetailsSecContent {
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+}
+
+.orgNameText {
+  font-family: $Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.08px;
+  line-height: 28px;
+  text-align: start;
+  color: $BlackText;
+}
+
+.organizationDetailsMainText2 {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+
+  @media #{$lg-layout} {
+    font-size: 12px;
+  }
+}
+
+.organizationDetailsOptionText2A {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $DRMainThemeColor;
+}
+
+.organizationDetailsOptionText2 {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.organizationDetailsOptionText2A-small {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $DRMainThemeColor;
+}
+
+.organizationDetailsOptionText2-small {
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.organizationDetailsOptionText4 {
+  font-family: $Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.modalStructureViewOrgProfileList {
+  width: 350px;
+  max-height: 400px;
+  overflow: hidden;
+  background-color: #ffffff;
+  top: 80px;
+  right: 1%;
+  position: absolute;
+  transform: translate(0, 0);
+  border-radius: 20px;
+  outline: none;
+}
+
+.modalStructureViewOrgProfileList .modalContent {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.modalShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.seletcedLine {
+  height: 3px;
+  background-color: $DRMainThemeColor;
+}
+
+.seletcedLineHide {
+  height: 3px;
+  background-color: $WhiteBackground;
+}
+
+.orgDetailsDownSec {
+  width: 1160px;
+}
+
+.followersCardSec {
+  background-color: $WhiteBackground;
+  width: 320px;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.orgDetailEventCard {
+  background-color: $WhiteBackground;
+  width: 340px;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 150px;
+}
+
+.detail-wrapper-container {
+  background-color: $WhiteBackground;
+  width: 290px;
+  padding-left: 40px;
+}
+
+.followersCardSec2 {
+  background-color: $WhiteBackground;
+  width: 340px;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.followersCardSec3 {
+  background-color: $WhiteBackground;
+  width: 340px;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 100px;
+}
+
+.eventCardTimeOrgCard {
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $LightRedText;
+}
+
+.right-main-grow-card {
+  background-color: $WhiteBackground;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 0% !important;
+}
+
+.right-main-div {
+  flex: 1 1 0% !important;
+}
+
+.orgDownMainSec {
+  background-color: $WhiteBackground;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.follower-wrapper {
+  background-color: $WhiteBackground;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  min-height: 150px;
+  height: 307px;
+  overflow: hidden;
+}
+
+.ppDownMainSec {
+  background-color: $WhiteBackground;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.orgDatePickerIconMargin {
+  margin-left: 400px;
+}
+
+.modalStructureImageUpload {
+  height: fit-content;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  outline: none;
+}
+
+.copiedText {
+  color: #505050;
+}
+
+.shareBTN {
+  width: 100px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2cd1ef;
+  border: solid 2px #2cd1ef;
+}
+
+.copyBTN {
+  width: 100px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+}
+
+.returnBTN {
+  width: 200px;
+  height: 40px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.addaNewButtonBTN {
+  width: 220px;
+  height: 40px;
+  font-family: $SFProText;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2cd1ef;
+  border-radius: 8px;
+}
+
+.photoViewSecDIV {
+  width: 500px;
+  min-height: 75vh !important;
+  max-height: 90vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.savedPostViewSecDIV {
+  width: 500px;
+  min-height: 40vh !important;
+  max-height: 90vh !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.photoViewSubDIV {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.shareModalStructure {
+  width: 500px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.imageUplaodInput01 {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 0px;
+  font-family: $Poppins;
+  font-size: 13px;
+  color: #686868 !important;
+  line-height: 16.9px;
+  font-weight: 500;
+  border: solid 2px #ebeef4;
+}
+
+.imageUplaodInput02 {
+  width: 350px;
+  height: 130px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: $Poppins;
+  font-size: 13px;
+  color: #686868 !important;
+  line-height: 16.9px;
+  font-weight: 500;
+  border: solid 2px #ebeef4;
+}
+
+.imageUploadInput03 {
+  width: 350px;
+  height: 130px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: $Poppins;
+  font-size: 13px;
+  color: #686868 !important;
+  line-height: 16.9px;
+  font-weight: 500;
+  border: solid 2px #ebeef4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleBTN {
+  height: 35px;
+  border-radius: 5px;
+  padding-top: 10px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $BlackText;
+}
+
+.dateInputTextOrg {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $LightGrayText;
+  width: fit-content;
+  margin-right: -100px;
+}
+
+.orgDetailsViewAddNewImage {
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.edit-modal-container {
+  max-width: 500px;
+  height: 780px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  outline: none;
+  background-color: white;
+  border-radius: 10px;
+  @media #{$tabsP-layout} {
+    max-width: 600px;
+  }
+  @media #{$tabsL-layout} {
+    max-width: 500px;
+    height: 600px;
+  }
+  @media #{$sm-layout} , #{$lg-layout} {
+    height: 550px;
+  }
+}
+
+.edit-modal-sub-container {
+  width: 100%;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.edit-detail-modal-sub-container {
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  @media #{$lg-layout} {
+    height: 535px;
+  }
+  @media #{$xl-layout} {
+    height: 535px;
+  }
+}
+
+.edit-detail-modal-sub-save-wrapper {
+  height: 80px;
+}
+
+.edit-modal-content {
+  padding: 0 20px;
+}
+
+.edit-profile-wrapper {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.edit-profile-detail-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.edit-profile-pic-wrapper {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 100px;
+  outline: 2px solid $LightGrayText;
+}
+
+.edit-profile-cover-pic-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.edit-profile-pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.separator-line {
+  width: 100%;
+  height: 1px; /* Adjust the height as needed */
+  background-color: $LightGrayText; /* Use your desired color */
+  margin: 10px 0; /* Adjust margin as needed to create space above and below the line */
+  border: none; /* Remove default border */
+}
+
+.edit-detail-content-left {
+  flex: 0 0 150px; /* Fixed width for "Organization Name :" */
+}
+
+.edit-detail-description {
+  flex-grow: 1; /* Allow the description to grow and take remaining space */
+  max-width: calc(
+    100% - 164px
+  ); /* Adjust the width to leave space for the organization name */
+}
+
+.networks-icon-wrapper {
+  height: 28px;
+  width: 28px;
+  overflow: hidden;
+}
+
+.networks-icon-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.edit-dropdown {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.edit-date-picker {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+.followersCardScroll {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.followers-wrapper-scroll {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.followersProfileImageImage {
+  height: 65px;
+  width: 65px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.postCardScroll {
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.profileViewPostProfileImage {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 100px;
+}

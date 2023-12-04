@@ -1,0 +1,764 @@
+.DateInput {
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.datehtmlinput {
+  width: 90px;
+  outline: none;
+}
+
+.timeInputText {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $LightGrayText;
+  width: fit-content;
+  margin-right: -80px;
+}
+
+.dateInputText {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  width: fit-content;
+  margin-right: -95px;
+}
+
+.dateInputText-TimePicker {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+
+.timeInput {
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.eventNameInput {
+  width: 630px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.eventSettingInput {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.currencyDropDown {
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.currencyDropDown:focus {
+  outline: none;
+}
+
+.addLocationDiv {
+  width: 330px;
+  height: 90px;
+  color: $BlackText;
+  border-radius: 5px;
+  border: solid 2px #ebeef4;
+}
+
+.addLocationDivA {
+  width: 330px;
+  height: 90px;
+  color: $BlackText;
+  border-radius: 5px;
+  background-color: $DRMainThemeColor;
+  border: solid 2px #ebeef4;
+}
+
+.addLocationDivMainTxt {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+
+.addLocationDivSubTxt {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+}
+
+.addLocationDivMainTxtA {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $WhiteText;
+}
+
+.addLocationDivSubTxtA {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  color: $WhiteText;
+}
+
+.eventSettingsDiv {
+  width: 170px;
+  height: 45px;
+  border-radius: 5px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  background-color: #ebeef4;
+}
+
+.uploadFileDiv {
+  width: 400px;
+  height: 180px;
+  border-radius: 5px;
+  border: solid 2px #ebeef4;
+}
+
+.eventUploadCoverImageDiv {
+  width: 230px;
+  height: 45px;
+  border-radius: 5px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  background-color: #ebeef4;
+}
+
+.modalStructureEventSettings {
+  width: 500px;
+  min-height: 280px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  outline: none;
+}
+
+.modalStructureEventPreview {
+  width: 800px;
+  min-height: 280px;
+  height: 90vh;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  outline: none;
+}
+
+.modalStructureEventCreate {
+  width: 550px;
+  min-height: 280px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  outline: none;
+}
+
+.modalStructureViewOrg {
+  width: 350px;
+  min-height: fit-content;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  outline: none;
+}
+
+.addHostBTN {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ebeef4;
+}
+
+.eventSettingsNameText {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.08px;
+
+  @media #{$lg-layout} {
+    font-size: 13px;
+  }
+}
+
+.eventSettingsNameTextTopic {
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.08px;
+  width: 95%;
+
+  @media #{$lg-layout} {
+    font-size: 13px;
+  }
+}
+
+.timelineDescription {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.08px;
+
+  @media #{$lg-layout} {
+    font-size: 12px;
+  }
+}
+
+.eventSettingsOrgText {
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  color: $GrayText;
+}
+
+.eventSettingsItemsText {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  color: $GrayText;
+}
+
+.createEventModalMainText {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 0.08px;
+  color: $GrayText;
+}
+
+.createEventModalsubText {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 21px;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $GrayText;
+}
+
+.previewImageEvent {
+  border-top-left-radius: 10px; /* 2px */
+  border-top-right-radius: 10px; /* 2px */
+  height: 250px !important;
+  width: 740px;
+  object-fit: cover;
+}
+
+.viewDetailsImageEvent {
+  border-top-left-radius: 10px; /* 2px */
+  border-top-right-radius: 10px; /* 2px */
+  height: 440px !important;
+  width: 1150px;
+  object-fit: cover;
+}
+.viewDetailsEventImageDownDiv {
+  height: 80px !important;
+  width: 1150px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px; /* 2px */
+  border-bottom-right-radius: 10px; /* 2px */
+}
+
+.previewEventImageDownDiv {
+  height: 80px !important;
+  width: 740px;
+  background-color: #ebeef4;
+  border-bottom-left-radius: 10px; /* 2px */
+  border-bottom-right-radius: 10px; /* 2px */
+}
+
+.eventPreviewMainText {
+  font-family: $Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.eventPreviewMainText2 {
+  font-family: $Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.eventPreviewMainText3 {
+  font-family: $Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  line-height: 22px;
+  color: $BlackText;
+}
+
+.inviteFriendsBtn {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ebeef4;
+}
+
+.eventPreviewCardTime {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  color: $LightRedText;
+}
+
+.eventPreviewJUBTN {
+  width: 135px;
+  height: 35px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+  background-color: $DRMainThemeColor;
+}
+
+.eventPreviewGOBTN {
+  width: 110px;
+  height: 35px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+  background-color: #ebeef4;
+}
+
+.eventPreviewGOBTN2 {
+  width: 110px;
+  height: 35px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+  background-color: $DRMainThemeColor;
+}
+
+.eventPreviewCGOBTN {
+  width: 110px;
+  height: 35px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+  background-color: #ebeef4;
+}
+
+.eventPreviewInviteOBTN {
+  width: 110px;
+  height: 35px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $WhiteText;
+  background-color: $BlackBTN;
+}
+
+.shareEventBTN {
+  width: 100px;
+  height: 35px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2cd1ef;
+  border: solid 2px #2cd1ef;
+}
+
+.previewEventSubTextTxt02 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #505050;
+}
+
+.previewEventSubTextTxt03 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #505050;
+}
+
+.previewEventSubTextTxt06 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #505050;
+}
+
+.previewEventSubTextTxt07 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #a4a4a4;
+}
+
+.previewEventSubTextTxt07-blue {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #2cd1ef;
+}
+
+.previewEventSubTextTxt04 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #505050;
+
+  @media #{$lg-layout} {
+    font-size: 12px;
+  }
+}
+
+.previewEventSubTextTxt05 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #2cd1ef;
+
+  @media #{$lg-layout} {
+    font-size: 12px;
+  }
+}
+
+.previewEventSubTextTxt04-11 {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 11px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  color: #505050;
+}
+
+.eventPreviewContentDiv {
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  margin-right: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $WhiteBTN;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $DRMainThemeColor;
+  border-radius: 20px;
+  border: 1px solid $GrayBTN;
+}
+
+.eventViewDetailsMainText {
+  font-family: $Poppins;
+  font-size: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 12px;
+  color: $BlackText;
+}
+
+.eventViewDetailsSubText {
+  font-family: $Poppins;
+  font-size: 9px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: start;
+  line-height: 10px;
+  color: $BlackText;
+}
+
+.event-date-set {
+  position: absolute;
+  margin-top: 15px;
+  top: 0;
+  right: 1;
+  margin-left: 2px;
+  padding: 5px; /* Optional: add padding for better readability */
+}
+
+.image-styles-65 {
+  width: 65px;
+  height: 65px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.common-gray-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ebeef4;
+}
+
+.DateInput-small {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  color: $BlackText;
+  border: solid 2px #ebeef4;
+}
+
+.participantsScroll {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.participantProfileImage {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.profile-image-event {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-image-container-event {
+  width: 150px;
+  height: 80px;
+}
+
+.createEventProfileImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.profile-image-event-settings {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.profile-image-container-event-settings {
+  width: 130px;
+  height: 65px;
+}

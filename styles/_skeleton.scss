@@ -1,0 +1,191 @@
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(195, 18%, 78%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 2s linear infinite alternate;
+}
+
+.skeleton-animation {
+  animation: skeleton-loading 2s linear infinite alternate;
+}
+
+.skeleton-full-width {
+  width: 100%;
+  height: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton-title {
+  width: 60%;
+  height: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
+}
+.skeleton-sub-title {
+  width: 50%;
+  height: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
+}
+
+.skeleton-sub-title-short {
+  width: 30%;
+  height: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
+}
+.skeleton-text {
+  width: 100%;
+  height: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-radius: 20px;
+}
+.skeleton-certificateIcon {
+  width: 60%;
+  height: 3.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton-event-image-dashboard {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 170px !important;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton-OtherIcon {
+  width: 36%;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+.skeleton-paymentTableCertificateName {
+  width: 12rem;
+  height: 1.3rem;
+  margin-left: 1rem;
+}
+.skeleton-paymentTableCertificateStatus {
+  width: 4rem;
+  height: 1rem;
+  margin-left: 6.5rem;
+}
+.skeleton-paymentTableCertificateEye {
+  width: 1.8rem;
+  height: 1.4rem;
+  margin-left: 5.5rem;
+}
+.skeleton-paymentTableCertificateDate {
+  width: 70%;
+  height: 0.4rem;
+  margin-bottom: 0.25rem;
+  margin-left: 5rem;
+}
+
+.skeleton-postMainDiv {
+  width: 100%;
+  height: 280px;
+  border-radius: 8px;
+  background-color: hsl(180, 100%, 100%);
+
+  @media (min-width: 1280px) and (max-width: 1500px) {
+    width: 100%;
+  }
+}
+
+.skeleton-timelinePostProfileImage {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.skeleton-text-xs {
+  width: 20%;
+  height: 20px;
+  border-radius: 100px;
+  background-color: hsl(195, 18%, 78%);
+}
+
+.skeleton-text-s {
+  width: 30%;
+  height: 20px;
+  border-radius: 100px;
+  background-color: hsl(195, 18%, 78%);
+}
+
+.skeleton-text-m {
+  width: 40%;
+  height: 20px;
+  border-radius: 100px;
+  background-color: hsl(195, 18%, 78%);
+}
+
+.skeleton-text-l {
+  width: 50%;
+  height: 20px;
+  border-radius: 100px;
+  background-color: hsl(195, 18%, 78%);
+}
+
+.skeleton-text-xl {
+  width: 60%;
+  height: 20px;
+  border-radius: 100px;
+}
+
+.skeleton-text-xxl {
+  width: 70%;
+  height: 20px;
+  border-radius: 100px;
+}
+
+.skeleton-height-div {
+  height: 150px;
+}
+
+.skeleton-follow-button {
+  width: 110px;
+  height: 33px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.08px;
+  text-align: center;
+}
+
+.skeleton-orgListCard2 {
+  width: 150px !important;
+  height: 200px;
+  border-radius: 8px;
+  background-color: $WhiteBackground;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+
+  @media (min-width: 1280px) and (max-width: 1500px) {
+    width: 11rem !important;
+    margin-left: -0.9rem;
+  }
+}
+
+.skeleton-timelineRecentJoinOrgProfileImage {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.skeleton-profile-image-container {
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  margin-right: 10px; /* Add spacing between image and content */
+  border-radius: 10px;
+}

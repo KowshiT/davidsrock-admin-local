@@ -1,0 +1,17 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "_auth";
+@import "_variables";
+@import "_common";
+@import "_home";
+@import "_organization";
+@import "_event";
+@import "_timeline";
+@import "_partnership";
+@import "_publicProfile";
+@import "_modal";
+@import "_skeleton";
+@import "_message";
