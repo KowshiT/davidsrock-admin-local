@@ -81,7 +81,7 @@ const LoginFormCard: React.FC<LoginFormCardProps> = (props) => {
           });
           actions.resetForm();
           setauthCard("");
-          router.push("/home");
+          router.push("/dashboard");
         } else if (res.status == "PENDING") {
           setTimeout(() => setLoaderOpen(false), 1000);
           setAlert({
@@ -233,12 +233,6 @@ const LoginFormCard: React.FC<LoginFormCardProps> = (props) => {
             onClick={(e: any) => setauthCard("FORGOT_PASSWORD_CARD")}
           >
             Forgot password?
-          </button>
-          <button
-            className="signUpText mt-2 !mb-4 duration-500 hover:scale-105"
-            onClick={(e: any) => setauthCard("SIGNUP_CARD")}
-          >
-            Sign up for Davids Rock
           </button>
         </div>
       </div>

@@ -99,10 +99,6 @@ const HomeLeftMenuListCard: React.FC<Props> = (props) => {
     router.push(url);
     clearData();
   };
-  const handleRouteHome = () => {
-    router.push("/home");
-    clearData();
-  };
 
   const buttonIconHandler = (buttonName) => {
     if (buttonName === "Dashboard") {
@@ -134,22 +130,6 @@ const HomeLeftMenuListCard: React.FC<Props> = (props) => {
     <React.Fragment>
       <div className="dashboardSideBarSec pt-4 pb-4">
         <div className="dashboardSideBarSec2">
-          <button
-            className="transform transition duration-500 hover:scale-105 hover:cursor-pointer"
-            onClick={(e: any) => handleRouteHome()}
-          >
-            <SectionRow className=" ml-6">
-              <Image
-                // loader ={() => LoginPageImage}
-                src={blackLArrow}
-                alt="Picture of the author"
-                width={25}
-                height={25}
-              />
-              <span className="homeLeftBarMainText ml-2">Home</span>
-            </SectionRow>
-          </button>
-          <div className="line mt-3 mb-3 w-full"></div>
           <SectionColumn className="mt-3 grid justify-items-start ">
             {accountType === "INITIAL" && hasPublicProfile ? (
               buttonConfig["INITIAL_WITHOUT_PUBLIC_PROFILE"].map(

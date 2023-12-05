@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Section, { SectionColumn, SectionRow } from "../../layouts/section";
 import RoundedButton from "../../components/Buttons/RoundedButtons";
 import AuthModal from "../../components/Modal/authModal";
-import SignUpFormCard from "../../components/Card/auth/signUp/SignUpFormCard";
 import LoginFormCard from "../../components/Card/auth/login/LoginFormCard";
 import ForgotPasswordFormCard from "../../components/Card/auth/forgotPassword/ForgotPasswordFormCard";
 import { ModalOpenCloseContext } from "@/contexts/modalContext/modalOpenCloseContext";
@@ -23,7 +22,6 @@ import {
 import { useAlerts } from "@/hooks/alertHook";
 import { verifyEmailActionHandler } from "@/actionLayer/auth/loginActions";
 import Loader from "../../components/Modal/LoadingModal";
-import SignUpMainCard from "../../components/Card/auth/signUp/SignUpMainCard";
 import { SignUpStageContext } from "@/contexts/authContext/SignUpStageContext";
 
 const Auth: NextPage = () => {
@@ -102,11 +100,6 @@ const Auth: NextPage = () => {
     setAuthModal(true);
   };
 
-  const signUpHandler = () => {
-    setauthCard("SIGNUP_CARD");
-    setAuthModal(true);
-  };
-
   return (
     <React.Fragment>
       <Section className="overflow-hidden">
@@ -177,15 +170,6 @@ const Auth: NextPage = () => {
                   <RoundedButton
                     ref={undefined}
                     onClick={(e: any) => {
-                      signUpHandler();
-                    }}
-                    className="signUpBTN mr-3"
-                  >
-                    Sign Up
-                  </RoundedButton>
-                  <RoundedButton
-                    ref={undefined}
-                    onClick={(e: any) => {
                       loginHandler();
                     }}
                     className="loginBTN"
@@ -230,9 +214,7 @@ const Auth: NextPage = () => {
       </Section>
       <AuthModal
         contentCard={
-          authCard === "SIGNUP_CARD" ? (
-            <SignUpMainCard />
-          ) : authCard === "LOGIN_CARD" ? (
+          authCard === "LOGIN_CARD" ? (
             <LoginFormCard />
           ) : authCard === "FORGOT_PASSWORD_CARD" ? (
             <ForgotPasswordFormCard />
