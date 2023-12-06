@@ -49,6 +49,10 @@ export const handleButtonClickedHelper = (buttonName: string) => {
       return "/dashboard/savedItems";
     case "Message":
       return "/dashboard/message";
+    case "View Users":
+      return "/dashboard/viewUsersList";
+    case "View Post":
+      return "/dashboard/viewPostList";
     //break;
     default:
       return "/dashboard";

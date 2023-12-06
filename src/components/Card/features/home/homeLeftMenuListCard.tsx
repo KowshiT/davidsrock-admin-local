@@ -26,6 +26,8 @@ import EventIcon from '@mui/icons-material/Event';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import MessageIcon from '@mui/icons-material/Message';
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import WysiwygIcon from '@mui/icons-material/Wysiwyg';
 
 export interface Props { }
 
@@ -123,6 +125,10 @@ const HomeLeftMenuListCard: React.FC<Props> = (props) => {
       return <HandshakeIcon style={{ width: '20px', height: '20px', marginLeft: '10px' }} />
     } else if (buttonName === "Message") {
       return <MessageIcon style={{ width: '20px', height: '20px', marginLeft: '10px' }} />
+    } else if (buttonName === "View Users") {
+      return <ManageAccountsIcon style={{ width: '20px', height: '20px', marginLeft: '10px' }} />
+    } else if (buttonName === "View Post") {
+      return <WysiwygIcon style={{ width: '20px', height: '20px', marginLeft: '10px' }} />
     }
   }
 
@@ -130,6 +136,10 @@ const HomeLeftMenuListCard: React.FC<Props> = (props) => {
     <React.Fragment>
       <div className="dashboardSideBarSec pt-4 pb-4">
         <div className="dashboardSideBarSec2">
+          <SectionRow className=" ml-6">
+            <span className="homeLeftBarMainText ml-2">Admin Panel</span>
+          </SectionRow>
+          <div className="line mt-3 mb-3 w-full"></div>
           <SectionColumn className="mt-3 grid justify-items-start ">
             {accountType === "INITIAL" && hasPublicProfile ? (
               buttonConfig["INITIAL_WITHOUT_PUBLIC_PROFILE"].map(
