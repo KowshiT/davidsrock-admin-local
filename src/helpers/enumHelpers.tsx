@@ -12,13 +12,12 @@ export const buttonConfig = {
   ],
   INITIAL_WITHOUT_PUBLIC_PROFILE: [
     "Dashboard",
-    "Create Organization",
-    "View Partnerships",
-    "View Organizations",
+    "View Users",
     "View Public Profiles",
+    "View Organizations",
+    "View Partnerships",
     "View Events",
-    "Saved Items",
-    // "Message",
+    "View Post",
   ],
   ORGANIZATION: [
     "Dashboard",
